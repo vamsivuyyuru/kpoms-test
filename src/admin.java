@@ -31,6 +31,7 @@ public class admin {
 		driver.findElement(By.xpath("html/body/header/div[2]/ul/li/a/span/i")).click();
 		driver.findElement(By.xpath("html/body/header/div[2]/ul/li/ul/li[2]/ul/li[1]/a")).click();
 		driver.findElement(By.id("password")).sendKeys("admin");
+		Thread.sleep(3000);
 		driver.findElement(By.id("npassword")).sendKeys("admin");
 		driver.findElement(By.id("cpassword")).sendKeys("admin");
 		driver.findElement(By.id("submit4")).click();
